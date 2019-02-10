@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=GumballMachine
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ GumballMachine\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=numberGumballs\ variant_no
+comment1.target=GumballMachine(int,\ int)
+comment2.params=coins
+comment2.target=void\ insertQuarter(int[])
+comment3.params=
+comment3.target=void\ ejectQuarter()
+comment4.params=
+comment4.target=void\ turnCrank()
+comment5.params=
+comment5.target=void\ releaseBall()
+comment6.params=
+comment6.target=int\ getCount()
+comment7.params=count
+comment7.target=void\ refill(int)
+comment8.params=
+comment8.target=java.lang.String\ toString()
+numComments=9

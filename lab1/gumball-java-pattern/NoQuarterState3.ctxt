@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=NoQuarterState3
+comment1.params=variant3
+comment1.target=NoQuarterState3(GumballMachine)
+comment2.params=coins
+comment2.target=void\ insertQuarter(int[])
+numComments=3
