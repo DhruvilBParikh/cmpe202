@@ -13,7 +13,7 @@ public class CustomerStrategy implements IStrategy
     	double subtotal = order.getPrice();
     	double tax = order.getPrice() * 0.09;
     	double total = subtotal + tax;
-        System.out.println("Receipt\n\n");
+        System.out.println("Receipt");
         order.printReceipt("Customer");
         System.out.println("\nSub. Total:\t" + fmt.format(subtotal));
         System.out.println("Tax:\t\t" + fmt.format(tax));

@@ -8,7 +8,7 @@ public class PackagingStrategy implements IStrategy
     }
     
     public void printReceipt(Component order){
-        System.out.println("Packing Slit\n\n");
+        System.out.println("Packing Slit");
         order.printReceipt("Packing");
     }
 }
