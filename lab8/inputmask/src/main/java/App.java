@@ -17,7 +17,7 @@ public class App {
 		num = new CreditCardNum();
 		exp = new CreditCardExp();
 		cvc = new CreditCardCVC();
-		
+
 		screen.addSubComponent(num);
 		screen.addSubComponent(exp);
 		screen.addSubComponent(cvc);
@@ -40,7 +40,7 @@ public class App {
 
 	public void key(String ch) {
 		if (ch.length() == 1) {
-			if (Character.isDigit(ch.charAt(0))) {
+			if (Character.isDigit(ch.charAt(0)) && count <= 22) {
 				count++;
 				screen.key(ch, count);
 			} else if (ch.equalsIgnoreCase("x") && count > 0) {

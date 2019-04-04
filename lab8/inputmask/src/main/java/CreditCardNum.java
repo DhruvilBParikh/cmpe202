@@ -22,13 +22,23 @@ public class CreditCardNum implements IDisplayComponent, IKeyEventHandler {
 			number = decorator.decorate(number);
 			return "[" + number + "]" + "  ";
 		}
-			
+
 	}
 
 	public void key(String ch, int cnt) {
-		if (cnt <= 16)
-			number += ch;
-		else if (nextHandler != null)
+		if (cnt <= 16) {
+			if (!ch.equalsIgnoreCase("x"))
+				number += ch;
+			else{
+				int n=number.length();
+				if(n==5 || n==10 || n==15)
+					number = number.substring(0, n - 2).trim();
+				else
+					number = number.substring(0, n - 1).trim();
+				
+			} 
+				
+		} else if (nextHandler != null)
 			nextHandler.key(ch, cnt);
 	}
 
