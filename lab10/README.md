@@ -11,10 +11,10 @@ While in this lab, with the use of AspectJ and FeatureIDE, config file is managi
 **Screenshots**
 
  - Slot Model: one quarter(cost 25) 
- ![](./Screenshots/SLOTMODEL_COST25.png)
+ ![](./Screenshots/SLOTMODEL_COST25.PNG)
  - Slot Model: two quarter (cost 50) 
- ![](./Screenshots/SLOTMODEL_COST50.png)
+ ![](./Screenshots/SLOTMODEL_COST50.PNG)
  - Crank Model: two quarter (cost 25) 
- ![](./Screenshots/CRANKMODEL_ONEQTR.png)
+ ![](./Screenshots/CRANKMODEL_ONEQTR.PNG)
 - Crank Model: two quarter (cost 50) 
- ![](./Screenshots/CRANKMODEL_TWOQTR.png)
+ ![](./Screenshots/CRANKMODEL_TWOQTR.PNG)
